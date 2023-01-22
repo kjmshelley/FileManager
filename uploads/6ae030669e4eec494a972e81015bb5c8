@@ -1,0 +1,94 @@
+Define cloud computing.
+Describe public cloud, private cloud, and hybrid cloud.
+Compare and contrast the three types of cloud computing.
+Describe Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS), and Serverless | Functions as a Service (FaaS).
+Identify a service type based on a use case.
+
+
+Azure Security Center and Azure Defender are now called Microsoft Defender for Cloud
+Azure Defender plans to Microsoft Defender plans
+Azure Sentinel is now called Microsoft Sentinel
+Azure Defender for IoT is now called Microsoft Defender for IoT
+Azure Defender for SQL is now called Microsoft Defender for SQL
+Microsoft Cloud App Security is now called Microsoft Defender for Cloud App
+Microsoft Defender for Business is introduced as a new Service SKU
+
+Cloud computing provides computing resources over the internet to a third party
+Cloud computing is a technical and finance evolution to delivering computing resources
+
+Finance evolution:
+Capital expenditure CapEx (buying upfront before you use resource)
+Operating expense OpEx (paying for what resource you use)
+
+The term cloud-native also gets introduced here; this means moving from the monolith stacks of virtual machines to microservices such as containers or serverless architecture solutions as functions (Azure Functions) or workflows (Azure Logic Apps). 
+
+Serverless abstract language runtime
+PaaS abstract compute
+IaaS abstract hardward
+
+
+As I mentioned earlier, serverless is about abstracting the language runtime, PaaS is about abstracting the compute, and IaaS is about abstracting the hardware. When we say abstract, what we mean is to remove, that is, remove the requirement to provide that layer; we make that layer the cloud provider's responsibility to provide, scale, keep available, maintain, and so on. It is a layer that we no longer need to know or care about:
+
+Shared Responsibility model is a security model that describes what security features you are responsible for and what security features the cloud provider is responsible
+
+
+Cloud computing delivery methods:
+public cloud: multi-tenant
+private cloud: single-tenant
+hybrid: multi-tenant & single-tenant
+
+
+Service provider is a third party that provides computing resources over the internet
+
+Cloud computing service models:
+IaaS: abstracts hardward, you create & manage VMs
+  Azure VM
+  Azure Storage
+  Azure Networking
+PaaS: abstracts computing
+  Azure App Service
+  Azure SQL Database
+  Cosmos DB
+  Azure Files
+  Azure Active Directory Domain Services (AADS)
+Serverless/FaaS: abstracts runtime, extension of PaaS
+  Azure Functions
+  Azure Logic Apps
+SaaS: abstracts everything, you only consume an application's feature
+  Microsoft Teams
+  Microsoft Exchange Online
+  Microsoft SharePoint Online
+  Microsoft OneDrive
+  Microsoft Dynamics 365
+
+What is scalability?
+Scalability refers to how to increase resources based on demand, usually in an automated way triggered upon a metric such as a time or resource threshold being reached:
+
+Scaling up (vertical scaling) means capacity is increased within the resource, such as increasing processor or memory by resizing a virtual machine.
+Scaling out (horizontal scaling) means additional resource instances, such as adding other virtual machines or compute node/scale units.
+
+
+What is elasticity?
+Elasticity refers to the ability to shape the resources needed automatically, burst and scale to meet any peak in demand, and return to a normal operating baseline.
+
+What is agility?
+Agility means deploying and configuring resources effectively and efficiently in a short space of time to meet any change in requirements or operational needs.
+
+What is high availability (and geo-distribution)?
+High availability and geo-distribution mean deploying resources to operate within the required or mandated Service Level Agreement (SLA) for those resources. An SLA is a guaranteed measure of uptime, meaning the amount of time the services are online, available, and operational.
+
+
+What is disaster recovery?
+Disaster recovery refers to a set of initiatives designed to ensure that critical business systems will be protected, despite serious incidents, and recovered to an operational state within a defined period; this is achieved by failing over to systems that have been replicated in another region.
+
+RTO refers to the maximum duration of acceptable downtime for the system.
+RPO refers to how much data loss is acceptable to a system:
+
+High availability – When systems fail and are not available, you can run a second instance in the same Azure region.
+Disaster recovery – When systems fail and are not available, you can run a second instance in another Azure region.
+Backup – When data is corrupted, deleted, lost, or irretrievable (ransomware), you can restore the instance from another copy of the system.
+
+A consumption model means paying only for what you use, for the time you use the resource
+
+
+

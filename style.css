@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/***************** main *********************/
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+/**************** end main ***************** /
+
+/***************** header *********************/
+
+
+/**************** end header ***************** /
+
+/***************** files *********************/
+
+
+/**************** end files ***************** /
+
+/***************** file-list *********************/
+
+table {
+    height: 100%;
+    width: 100%;
+    border-spacing: 0;
+}
+thead tr, thead tr td {
+    background-color: #cecece;
+    font-weight: bold;    
+}
+
+th, td {
+    border: .5px solid gray;
+}
+
+tr:nth-child(2) {
+    background-color: #cecece;
+}
+
+th {
+    padding: 5px;
+}
+td {
+    margin: 0px;
+    padding: 5px
+}
+
+/**************** end file-list ***************** /
+
+/***************** files-footer *********************/
+
+
+/**************** end files-footer ***************** /
+
+/***************** upload *********************/
+
+
+/**************** end upload ***************** /
